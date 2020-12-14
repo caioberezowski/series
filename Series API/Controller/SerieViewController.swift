@@ -34,8 +34,8 @@ extension SerieViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+           
             let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! SerieTableViewCell
-            
             let serie = viewModel.cellForRowAt(indexPath: indexPath)
             cell.setCellWithValuesOf(serie)
             

@@ -8,6 +8,8 @@
 import Foundation
 
 class SerieViewModel {
+    
+    
     private var apiService = APIService()
     private var popularSeries = [Serie]()
     
